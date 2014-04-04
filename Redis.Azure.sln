@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Redis.Azure", "Redis.Azure\Redis.Azure.ccproj", "{F3857BD8-B503-47FA-8844-7CB5BE303C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisMaster", "RedisMaster\RedisMaster.csproj", "{650B72F8-3ABE-4C5A-9C97-FEC87B6909EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D5FE5A09-8607-4758-AF63-0D5F3CC2190D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3857BD8-B503-47FA-8844-7CB5BE303C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3857BD8-B503-47FA-8844-7CB5BE303C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3857BD8-B503-47FA-8844-7CB5BE303C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3857BD8-B503-47FA-8844-7CB5BE303C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650B72F8-3ABE-4C5A-9C97-FEC87B6909EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650B72F8-3ABE-4C5A-9C97-FEC87B6909EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650B72F8-3ABE-4C5A-9C97-FEC87B6909EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650B72F8-3ABE-4C5A-9C97-FEC87B6909EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
