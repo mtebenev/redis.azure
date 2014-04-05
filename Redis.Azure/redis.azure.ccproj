@@ -47,10 +47,33 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Profiles" />
     <Folder Include="RedisMasterContent\" />
+    <Folder Include="RedisMasterContent\redis" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="RedisMasterContent\diagnostics.wadcfg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RedisMasterContent\redis\APIBridge.dll">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RedisMasterContent\redis\redis-benchmark.exe">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RedisMasterContent\redis\redis-check-aof.exe">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RedisMasterContent\redis\redis-check-dump.exe">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RedisMasterContent\redis\redis-cli.exe">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RedisMasterContent\redis\redis-server.exe">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RedisMasterContent\redis\redis.windows.conf">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
